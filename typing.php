@@ -129,9 +129,9 @@
     <header>
         <h2>ITyping</h2>
         <ul>
-            <li><a href="#">Typing</a></li>
-            <li><a href="#">GitHub</a></li>
-            <li><a href="#">linkdin</a></li>
+            <li><a href="index.php">Typing</a></li>
+            <li><a href="https://github.com/yogesh584">GitHub</a></li>
+            <li><a href="https://github.com/yogesh584">linkdin</a></li>
         </ul>
     </header>
     <!-- This div use is to display the results to user but you can see in your browser that this div (#finished) is not displayed because we want to show results to user when user complete his typing or his time up we setted that when time is over and user click on done button then this div(#finished) will display -->

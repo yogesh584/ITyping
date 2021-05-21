@@ -8,9 +8,9 @@
 			<header>
 		        <h2>ITyping</h2>
 		        <ul>
-		            <li><a href="#">Typing</a></li>
-		            <li><a href="#">Github</a></li>
-		            <li><a href="#">Linkdin</a></li>
+		            <li><a href="index.php">Typing</a></li>
+		            <li><a href="https://github.com/yogesh584">Github</a></li>
+		            <li><a href="https://github.com/yogesh584">Linkdin</a></li>
 		        </ul>
 	    	</header>
 			<div id="chooseOption">
