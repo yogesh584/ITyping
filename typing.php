@@ -83,7 +83,7 @@
             $time = $_GET['time_'];
             if ($time == " 5min ") {
                 $hour = 0;
-                $min = 1;
+                $min = 5;
                 $second = 1;
             }
             else if ($time == " 10min ") {
