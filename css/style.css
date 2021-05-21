@@ -1,0 +1,119 @@
+* {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    header {
+        width: 100%;
+        height: 50px;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 11;
+    }
+
+    header h2 {
+        color: #fff;
+    }
+
+    header ul {
+        display: flex;
+        list-style: none;
+        margin-top: 5px;
+    }
+
+    header ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        margin-right: 10px;
+        position: relative;
+    }
+
+    header ul li a::after {
+        content: "";
+        position: absolute;
+        bottom: -8px;
+        left: 0px;
+        width: 0%;
+        height: 1px;
+        height: 2px;
+        background: #fff;
+        transition: all 0.5s;
+    }
+
+    header ul li a:hover::after {
+        width: 100%;
+    }
+    #contanier::before {
+	    content: "";
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	    background: linear-gradient(#f00, #f0f);
+	    clip-path: circle(30% at right 70%);
+	}
+	#container{
+		width: 100%;
+		height: 100%;
+	}
+	#contanier::after {
+	    content: "";
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	    background: linear-gradient(#2196f3, #e91e63);
+	    clip-path: circle(30% at 10% 10%);
+	}
+	#chooseOption {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 200px;
+        width: 400px;
+        border: 2px solid black;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+        border-radius: 5px;
+    }
+    #chooseOption #English{
+    	margin-top: 30px;
+    }
+
+    #chooseOption button{
+    	width: 70%;
+    	height: 39px;
+    	border: 2px solid greenyellow;
+    	border-radius: 5px;
+    	background: transparent;
+    	cursor: pointer;
+    	margin: 10px auto;
+    	font-weight: bold;
+    	font-size: 19px;
+    	font-family: Calibri;
+    	color: #333;
+    	transition: all 0.5s;
+    }
+    #chooseOption button:hover{
+    	background: greenyellow;
+    }
